@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayush Hari - MSc Computer Science Student | Web Developer | Data Analyst | Tech YouTuber. Building inclusive digital solutions with code and creativity.">
+    <meta name="keywords" content="Ayush Hari, Computer Science, Web Developer, Data Analyst, Portfolio, Django, Python, Java">
+    <meta name="author" content="Ayush Hari">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ayush Hari - Portfolio">
+    <meta property="og:description" content="MSc Computer Science Student | Web Developer | Data Analyst | Tech YouTuber">
+    <meta property="og:type" content="website">
+    
+    <title>Ayush Hari | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">AH<span class="dot">.</span></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Ayush Hari</span></h1>
+                <h2 class="hero-subtitle">MSc Computer Science Student | Web Developer | Data Analyst | Tech YouTuber</h2>
+                <p class="hero-tagline">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="#" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="https://www.linkedin.com/in/ayushhari2003" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="glow-effect"></div>
+                    <i class="fas fa-user-circle profile-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate <strong>MSc Computer Science student</strong> with a strong foundation in software development 
+                        and data analytics. I graduated with a <strong>BCA degree (CGPA 7.7)</strong> and am currently pursuing my 
+                        postgraduate studies at Sahodaran Ayyappan Smaraka SNDP Yogam College, Konni.
+                    </p>
+                    <p>
+                        My expertise spans across <strong>Java, C++, Python (Django), HTML, and database management</strong>. 
+                        I'm deeply passionate about creating <strong>inclusive technology solutions</strong> that make a real difference. 
+                        One of my proudest achievements is developing the <strong>Blind Email project</strong>, a Python-based SMTP 
+                        email service specifically designed for visually impaired users.
+                    </p>
+                    <p>
+                        Beyond coding, I'm enthusiastic about <strong>data visualization and analytics</strong>, having completed 
+                        the Tata Data Visualisation Job Simulation. I also run a <strong>tech YouTube channel</strong> where I create 
+                        informative content to help others learn and grow in the tech space.
+                    </p>
+                    <p>
+                        I believe in continuous learning, collaboration, and building solutions that combine 
+                        <strong>code with creativity</strong> to solve real-world problems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>MSc Computer Science</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Projects</h3>
+                        <p>3+ Completed</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                        <p>Tata & More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Pursuing</div>
+                        <h3>MSc Computer Science</h3>
+                        <p class="institution">Sahodaran Ayyappan Smaraka SNDP Yogam College, Konni</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">June 2022 – March 2025</div>
+                        <h3>BCA – CGPA 7.7</h3>
+                        <p class="institution">Sahodaran Ayyappan Smaraka SNDP Yogam College, Konni</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Completed</div>
+                        <h3>12th Standard – 87%</h3>
+                        <p class="institution">NSS HSS Thattayil</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Completed</div>
+                        <h3>10th Standard – 99%</h3>
+                        <p class="institution">NSS HS Thattayil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>C++</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python (Django)</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Visualization</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="88"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-progress="92"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h3>Blind Email</h3>
+                    <p>Python-based SMTP email service designed for visually impaired users with accessibility focus. Features voice commands and screen reader optimization.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SMTP</span>
+                        <span class="tag">Accessibility</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Temporary Job Portal</h3>
+                    <p>Full-stack web application connecting employers with temporary workers. Built with modern web technologies and responsive design.</p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Tata Data Visualization Simulation</h3>
+                    <p>Created executive-level data visualizations and business insights for client leadership presentation. Completed through Forage platform.</p>
+                    <div class="project-tags">
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Visualization</span>
+                        <span class="tag">Business Intelligence</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">
+                        <i class="fas fa-certificate"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section">
+        <div class="container">
+            <h2 class="section-title">Achievements & <span class="gradient-text">Certifications</span></h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Tata Data Visualisation Job Simulation</h3>
+                    <p>Forage – August 2025</p>
+                    <ul>
+                        <li>Created executive data visuals</li>
+                        <li>Business decision insights</li>
+                        <li>Client leadership presentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills & Languages Section -->
+    <section id="soft-skills" class="soft-skills section">
+        <div class="container">
+            <div class="skills-languages-wrapper">
+                <div class="soft-skills-content">
+                    <h2 class="section-title">Soft <span class="gradient-text">Skills</span></h2>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-item glass-card">
+                            <i class="fas fa-users"></i>
+                            <p>Leadership</p>
+                        </div>
+                        <div class="soft-skill-item glass-card">
+                            <i class="fas fa-comments"></i>
+                            <p>Communication</p>
+                        </div>
+                        <div class="soft-skill-item glass-card">
+                            <i class="fas fa-clock"></i>
+                            <p>Time Management</p>
+                        </div>
+                        <div class="soft-skill-item glass-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <p>Self Motivation</p>
+                        </div>
+                        <div class="soft-skill-item glass-card">
+                            <i class="fas fa-smile"></i>
+                            <p>Friendly Personality</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="languages-hobbies">
+                    <div class="languages-content">
+                        <h3><i class="fas fa-language"></i> Languages</h3>
+                        <div class="language-list">
+                            <span class="language-tag">English</span>
+                            <span class="language-tag">Malayalam</span>
+                            <span class="language-tag">Hindi</span>
+                            <span class="language-tag">Tamil</span>
+                        </div>
+                    </div>
+                    <div class="hobbies-content">
+                        <h3><i class="fas fa-heart"></i> Hobbies</h3>
+                        <div class="hobby-list">
+                            <div class="hobby-item">
+                                <i class="fab fa-youtube"></i>
+                                <span>Tech YouTube</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-book"></i>
+                                <span>Reading</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Gaming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:ayushhari03@gmail.com">ayushhari03@gmail.com</a>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+918590715376">+91 85907 15376</a>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/ayushhari2003" target="_blank">linkedin.com/in/ayushhari2003</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper glass-card">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Ayush Hari</h3>
+                    <p>Building inclusive digital solutions</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/ayushhari2003" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ayushhari" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://youtube.com/@ayushhari" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="mailto:ayushhari03@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ayush Hari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
